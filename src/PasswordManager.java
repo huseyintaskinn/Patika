@@ -30,7 +30,7 @@ public class PasswordManager {
                     System.out.println("Şifre oluşturulamadı, lütfen başka şifre giriniz.");
                 } else {
                     System.out.println("Şifre oluşturuldu!");
-                    dogruSifre = yeniSifre; // Yeni şifreyi kaydediyoruz (isteğe bağlı)
+                    dogruSifre = yeniSifre; // Yeni şifreyi kaydediyoruz
                 }
             } else {
                 System.out.println("Şifre sıfırlanmadı. Program sonlandırılıyor.");
